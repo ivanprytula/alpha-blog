@@ -1,6 +1,30 @@
-<h1>This is home page</h1>
+<main class="flex-shrink-0 mt-auto">
+  <div class="container">
 
-<p>
-  <%= link_to 'Articles listing', articles_path %> |
-  <%= link_to 'About', about_path %>
-</p>
+    <div class="h-100 p-5 mb-4 rounded-3 jumbotron jumbotron--home">
+      <div class="container-fluid py-5 text-center text-white">
+        <h1 class="display-5 fw-bold">Alpha Blog</h1>
+        <p class="fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous
+          versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+        <button class="btn btn-success btn-lg"
+                href="#"
+                type="button"
+                role="button">Sign up!
+        </button>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+
+<footer class="footer mt-auto py-3 bg-dark">
+  <div class="container text-center">
+    <span class="text-muted">&copy; 2022 <%= link_to "Admin GitHUb", "https://github.com/ivanprytula", class: "text-white" %> </span>
+  </div>
+</footer>
+
+<!--<p>-->
+<!--   |-->
+  <%#= link_to 'About', about_path %>
+<!--</p>-->

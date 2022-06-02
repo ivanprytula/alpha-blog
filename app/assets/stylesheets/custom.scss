@@ -1,0 +1,7 @@
+// If we want override Bootstrap classes we need to import them beforehand
+//@import 'bootstrap/scss/bootstrap';
+
+.jumbotron--home {
+  background: #999999 asset_url('ink-pen.jpeg') no-repeat fixed center;
+  background-size: cover;
+}
