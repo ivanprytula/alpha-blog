@@ -22,7 +22,7 @@ class UsersController < ApplicationController
 
     if @user.update(user_params)
       flash[:notice] = "Your account info was successfully updated"
-      redirect_to articles_path
+      redirect_to @user
     else
       render :new
     end
